@@ -48,6 +48,9 @@ swiftgodot build
 This will compile the Swift code and copy the generated `libSwiftGodot.dylib` and `libMyFirstProject.dylib` to the `bin/` directory.
 
 ## To Do
+- [ ] Actually try the tool on a real project
 - [ ] Reconsider the `create` command and are there any other types of files that can be created
 - [ ] Maybe write some tests or something like that
 - [ ] Add support for other platforms, currently only tested it on my local machine.
+- [ ] Add a way to choose what class to extend when creating a new class
+- [ ] Figure out how `Bundle.module` works and if it the best way to load the templates
